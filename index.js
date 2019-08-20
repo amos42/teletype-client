@@ -1,5 +1,20 @@
 const TeletypeClient = require('./lib/teletype-client')
 const FollowState = require('./lib/follow-state')
 const Errors = require('./lib/errors')
+const RestGateway = require('./lib/rest-gateway')
+const Portal = require('./lib/portal')
+const PusherPubSubGateway = require('./lib/pusher-pub-sub-gateway')
+const BufferProxy = require('./lib/buffer-proxy')
+const EditorProxy = require('./lib/editor-proxy')
+const EditorProxyMetadata = require('./lib/editor-proxy-metadata')
+const PeerConnection = require('./lib/peer-connection')
+const PeerPool = require('./lib/peer-pool')
+const Router = require('./lib/router')
+const StarOverlayNetwork = require('./lib/star-overlay-network')
+const PubSubSignalingProvider = require('./lib/pusher-pub-sub-gateway')
+const NullPortalDelegate = require('./lib/null-portal-delegate')
+const NullEditorProxyDelegate = require('./lib/null-editor-proxy-delegate')
+const convertToProtobufCompatibleBuffer = require('./lib/convert-to-protobuf-compatible-buffer')
 
-module.exports = {TeletypeClient, FollowState, Errors}
+
+module.exports = {TeletypeClient, FollowState, Errors, RestGateway, NullEditorProxyDelegate, convertToProtobufCompatibleBuffer, NullPortalDelegate,PubSubSignalingProvider, PusherPubSubGateway, Portal, BufferProxy, EditorProxy,EditorProxyMetadata, PeerConnection, PeerPool, Router, StarOverlayNetwork}
