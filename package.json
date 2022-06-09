@@ -13,12 +13,12 @@
     "@atom/teletype-crdt": "^0.9.0",
     "event-kit": "^2.3.0",
     "google-protobuf": "^3.5.0",
-    "pusher-js": "^7.0.0",
+    "pusher-js": "^7.0.6",
     "uuid": "^3.2.1",
     "webrtc-adapter": "~6.1"
   },
   "devDependencies": {
-    "@atom/teletype-server": "^0.18.1",
+    "@atom/teletype-server": "git+https://github.com/amos42/teletype-server",
     "deep-equal": "^1.0.1",
     "dotenv": "^4.0.0",
     "electron": "2.0.0",
