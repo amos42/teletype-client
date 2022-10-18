@@ -18,7 +18,7 @@
     "webrtc-adapter": "~6.1"
   },
   "devDependencies": {
-    "@atom/teletype-client": "github:amos42/teletype-server.git",
+    "@atom/teletype-server": "github:amos42/teletype-server.git",
     "deep-equal": "^1.0.1",
     "dotenv": "^4.0.0",
     "electron": "2.0.0",
